@@ -3,7 +3,7 @@ import time
 import logging
 from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
-import fitz  # PyMuPDF
+import fitz  
 import pdfplumber
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
 
