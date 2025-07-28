@@ -11,7 +11,7 @@ DEBUG_OUTPUT_DIR = OUTPUT_DIR / "debug"
 MODEL_DIR = DATA_DIR / "models"
 
 # Processing Configuration
-MAX_PROCESSING_TIME = 10  # seconds
+MAX_PROCESSING_TIME = 20  # seconds
 BATCH_SIZE = 32
 MAX_FILE_SIZE_MB = 100
 
@@ -25,9 +25,9 @@ MIN_HEADING_LENGTH = 2           # Allow shorter headings
 MAX_HEADING_LENGTH = 300         # Allow longer headings
 
 # Semantic Filtering
-# EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 # EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L12-v2"
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L12-v1" #till now we can use either of the above all give similar accuracy with this one's being slightly higher cause of embedding dim
+# EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L12-v1" #till now we can use either of the above all give similar accuracy with this one's being slightly higher cause of embedding dim
 #EMBEDDING_MODEL = "sentence-transformers/nli-distilroberta-base-v2" #bigger model gives similar results so shifted to the minilml12v1
 
 SEMANTIC_SIMILARITY_THRESHOLD = 0.5
