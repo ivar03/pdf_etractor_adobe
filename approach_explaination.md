@@ -7,6 +7,7 @@ The system's core design principles are:
 - **Performance-first lazy loading** for AI components  
 - **Sophisticated multi-column layout analysis**  
 - **Robust multilingual support**
+<img width="958" height="703" alt="diagram-export-7-29-2025-2_51_11-AM" src="https://github.com/user-attachments/assets/6b304544-c811-48b9-b843-bba50346d293" />
 
 ---
 
